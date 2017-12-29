@@ -1,0 +1,69 @@
+{
+  "name": "Composer for How To ADHD",
+  "homepage": "https://howtoadhd.github.io/satis",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/howtoadhd/wordpress"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/howtoadhd/wp-platform-installer"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/humanmade/aws-ses-wp-mail"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/humanmade/batcache"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/humanmade/cavalcade"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/humanmade/cavalcade-runner"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/stuttter/ludicrousdb"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/humanmade/s3-uploads"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "humanmade/memcached-object-cache",
+        "description": "A WordPress object cache that uses the memcached (not memcache) PECL extension.",
+        "homepage": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache",
+        "license": "GPL-2.0+",
+        "support"    : {
+          "issues": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache/issues",
+          "source": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache"
+        },
+        "keywords": [
+          "wordpress"
+        ],
+        "authors": [
+          {
+            "name": "Human Made Limited",
+            "email": "support@humanmade.co.uk",
+            "homepage": "http://hmn.md/"
+          }
+        ],
+        "type": "wordpress-muplugin",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require-all": true
+}

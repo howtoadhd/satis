@@ -1,0 +1,27 @@
+{
+  "name": "howtoadhd/satis",
+  "description": "Composer Satis repository reference for howtoadhd.",
+  "homepage": "https://github.com/howtoadhd/satis",
+  "type": "project",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Lorelei Aurora",
+      "email": "iam@l5i.me"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/howtoadhd/satis/issues",
+    "source": "https://github.com/howtoadhd/satis"
+  },
+  "require": {
+    "composer/satis": "dev-master"
+  },
+  "scripts": {
+    "install-deps": "@composer install",
+    "build": "satis build satis.json public --no-interaction",
+    "deploy": "sh deploy.sh"
+  }
+}
