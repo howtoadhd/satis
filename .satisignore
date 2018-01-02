@@ -4,7 +4,9 @@
 
 # master branch stuff
 .editorconfig
+.travis.yml
 composer.*
 deploy.sh
 README.md
 satis.json
+
