@@ -28,7 +28,7 @@ fi
 # Build static `composer` repository with `composer/satis`.
 cd ..
 composer run-script install-deps
-composer run-script build
+./vendor/bin/satis build satis.json public --no-interaction
 
 # Deploy to Github Pages.
 cd public/
