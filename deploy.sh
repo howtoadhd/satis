@@ -27,6 +27,11 @@ fi
 
 # Build static `composer` repository with `composer/satis`.
 cd ..
+
+ls -la .
+ls -la ./vendor
+ls -la ./vendor/bin
+
 composer run-script install-deps
 ./vendor/bin/satis build satis.json public --no-interaction
 
