@@ -1,0 +1,1171 @@
+{
+    "packages": {
+        "howtoadhd/wordpress": {
+            "4.9.1.x-dev": {
+                "name": "howtoadhd/wordpress",
+                "version": "4.9.1.x-dev",
+                "version_normalized": "4.9.1.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2017-12-28T22:47:35+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            },
+            "dev-master": {
+                "name": "howtoadhd/wordpress",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2017-12-28T22:47:35+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            }
+        },
+        "howtoadhd/wp-platform-installer": {
+            "dev-master": {
+                "name": "howtoadhd/wp-platform-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform-installer.git",
+                    "reference": "fa0e0f9fc97b2816ff1a95c695c6fc1515ba4729"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/fa0e0f9fc97b2816ff1a95c695c6fc1515ba4729",
+                    "reference": "fa0e0f9fc97b2816ff1a95c695c6fc1515ba4729",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "conflict": {
+                    "composer/installers": "<1.0.6"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.0",
+                    "phpunit/phpunit": ">=4.8.35"
+                },
+                "time": "2017-12-27T15:12:42+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "HowToADHD\\Composer\\WPPlatformPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\Composer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\HowToADHD\\Composer\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test:phpunit": [
+                        "phpunit"
+                    ],
+                    "test": [
+                        "@test:phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "Composer plugin to install the HowToADHD WP Platform",
+                "homepage": "https://github.com/howtoadhd/wp-platform-installer",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform-installer/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform-installer"
+                }
+            }
+        },
+        "humanmade/aws-ses-wp-mail": {
+            "dev-master": {
+                "name": "humanmade/aws-ses-wp-mail",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/aws-ses-wp-mail.git",
+                    "reference": "571d1e03006354eac2bd5e73816466905857db96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/aws-ses-wp-mail/zipball/571d1e03006354eac2bd5e73816466905857db96",
+                    "reference": "571d1e03006354eac2bd5e73816466905857db96",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "~3.18",
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3"
+                },
+                "time": "2017-09-21T19:32:20+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to send mail via SES",
+                "homepage": "https://github.com/humanmade/aws-ses-wp-mail",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/aws-ses-wp-mail/issues",
+                    "source": "https://github.com/humanmade/aws-ses-wp-mail"
+                }
+            }
+        },
+        "humanmade/batcache": {
+            "dev-master": {
+                "name": "humanmade/batcache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/batcache.git",
+                    "reference": "3dde082cde50bc1bc98ae5caf69ca2dec192d7ac"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/batcache/zipball/3dde082cde50bc1bc98ae5caf69ca2dec192d7ac",
+                    "reference": "3dde082cde50bc1bc98ae5caf69ca2dec192d7ac",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2017-01-24T13:02:06+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "A memcached HTML page cache for WordPress.",
+                "homepage": "https://github.com/humanmade/batcache",
+                "support": {
+                    "issues": "https://github.com/humanmade/batcache/issues",
+                    "source": "https://github.com/humanmade/batcache"
+                }
+            }
+        },
+        "humanmade/cavalcade": {
+            "dev-master": {
+                "name": "humanmade/cavalcade",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/Cavalcade.git",
+                    "reference": "deca623ffa2830462f4fcae8d6130ea461396b20"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade/zipball/deca623ffa2830462f4fcae8d6130ea461396b20",
+                    "reference": "deca623ffa2830462f4fcae8d6130ea461396b20",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "require-dev": {
+                    "humanmade/coding-standards": "dev-master"
+                },
+                "time": "2017-12-15T00:55:53+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made",
+                        "homepage": "https://hmn.md/"
+                    }
+                ],
+                "description": "A better wp-cron. Horizontally scalable, works perfectly with multisite.",
+                "homepage": "https://github.com/humanmade/Cavalcade",
+                "support": {
+                    "source": "https://github.com/humanmade/Cavalcade/tree/master",
+                    "issues": "https://github.com/humanmade/Cavalcade/issues"
+                }
+            }
+        },
+        "humanmade/cavalcade-runner": {
+            "dev-master": {
+                "name": "humanmade/cavalcade-runner",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
+                    "reference": "52fa840f3fa45d4302b0de82cf6197c235980c9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/52fa840f3fa45d4302b0de82cf6197c235980c9e",
+                    "reference": "52fa840f3fa45d4302b0de82cf6197c235980c9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-pdo_mysql": "*",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "humanmade/coding-standards": "dev-master"
+                },
+                "time": "2017-08-01T00:40:01+00:00",
+                "bin": [
+                    "bin/cavalcade"
+                ],
+                "type": "library",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made",
+                        "homepage": "https://hmn.md/"
+                    }
+                ],
+                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
+                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
+                "support": {
+                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
+                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
+                }
+            }
+        },
+        "humanmade/memcached-object-cache": {
+            "dev-master": {
+                "name": "humanmade/memcached-object-cache",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache",
+                    "reference": "master"
+                },
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "A WordPress object cache that uses the memcached (not memcache) PECL extension.",
+                "homepage": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache/issues",
+                    "source": "https://github.com/humanmade/wordpress-pecl-memcached-object-cache"
+                }
+            }
+        },
+        "humanmade/s3-uploads": {
+            "v0.9.0": {
+                "name": "humanmade/s3-uploads",
+                "version": "v0.9.0",
+                "version_normalized": "0.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "1660d0b92d4abe75f82eeec550fa1cfd2d3ecc9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/1660d0b92d4abe75f82eeec550fa1cfd2d3ecc9c",
+                    "reference": "1660d0b92d4abe75f82eeec550fa1cfd2d3ecc9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-07-06T22:00:55+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "v1.1.0": {
+                "name": "humanmade/s3-uploads",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "9cb765284e7407d7ad2309a64dd8e5e13db258b2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/9cb765284e7407d7ad2309a64dd8e5e13db258b2",
+                    "reference": "9cb765284e7407d7ad2309a64dd8e5e13db258b2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-04-29T10:00:39+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "v2.0.0-beta1": {
+                "name": "humanmade/s3-uploads",
+                "version": "v2.0.0-beta1",
+                "version_normalized": "2.0.0.0-beta1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "27ab0a4598d809f74f5ac2fa74d8546ef207e567"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/27ab0a4598d809f74f5ac2fa74d8546ef207e567",
+                    "reference": "27ab0a4598d809f74f5ac2fa74d8546ef207e567",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-04-29T10:06:42+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "v2.0.0-beta2": {
+                "name": "humanmade/s3-uploads",
+                "version": "v2.0.0-beta2",
+                "version_normalized": "2.0.0.0-beta2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "cde95df1abbeea049f79ca6db80b385986ca1a0b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/cde95df1abbeea049f79ca6db80b385986ca1a0b",
+                    "reference": "cde95df1abbeea049f79ca6db80b385986ca1a0b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-08-09T11:31:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "v2.0.0-beta3": {
+                "name": "humanmade/s3-uploads",
+                "version": "v2.0.0-beta3",
+                "version_normalized": "2.0.0.0-beta3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "d3c8d81fa57e4535271fbe47c9cef2e54b54da3c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/d3c8d81fa57e4535271fbe47c9cef2e54b54da3c",
+                    "reference": "d3c8d81fa57e4535271fbe47c9cef2e54b54da3c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2017-03-15T04:01:31+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "dev-master": {
+                "name": "humanmade/s3-uploads",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "dbbd1c418eb4ca5ac135223e3c79c869229e79e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/dbbd1c418eb4ca5ac135223e3c79c869229e79e9",
+                    "reference": "dbbd1c418eb4ca5ac135223e3c79c869229e79e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "~3.18",
+                    "composer/installers": "~1.0"
+                },
+                "time": "2017-12-20T15:28:59+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "dev-lazy-load-s3-client": {
+                "name": "humanmade/s3-uploads",
+                "version": "dev-lazy-load-s3-client",
+                "version_normalized": "dev-lazy-load-s3-client",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "2bd704d9031c74c4d1bfdee29c0f9ecde8617d54"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/2bd704d9031c74c4d1bfdee29c0f9ecde8617d54",
+                    "reference": "2bd704d9031c74c4d1bfdee29c0f9ecde8617d54",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-09-23T01:49:41+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "dev-php7.0-tests": {
+                "name": "humanmade/s3-uploads",
+                "version": "dev-php7.0-tests",
+                "version_normalized": "dev-php7.0-tests",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "ddafea8a0d4f431d62648d71c38d597812061a6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/ddafea8a0d4f431d62648d71c38d597812061a6e",
+                    "reference": "ddafea8a0d4f431d62648d71c38d597812061a6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-03-31T23:35:20+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            },
+            "dev-upgrade-to-aws-sdk-v3": {
+                "name": "humanmade/s3-uploads",
+                "version": "dev-upgrade-to-aws-sdk-v3",
+                "version_normalized": "dev-upgrade-to-aws-sdk-v3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/S3-Uploads.git",
+                    "reference": "eb8247bf83491066f406bb53e6f6f64dc890adab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/eb8247bf83491066f406bb53e6f6f64dc890adab",
+                    "reference": "eb8247bf83491066f406bb53e6f6f64dc890adab",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-11-19T11:14:55+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made Limited",
+                        "email": "support@humanmade.co.uk",
+                        "homepage": "http://hmn.md/"
+                    }
+                ],
+                "description": "WordPress plugin to store uploads on S3",
+                "homepage": "https://github.com/humanmade/S3-Uploads",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/humanmade/s3-uploads/issues",
+                    "source": "https://github.com/humanmade/s3-uploads"
+                }
+            }
+        },
+        "stuttter/ludicrousdb": {
+            "2.1.0": {
+                "name": "stuttter/ludicrousdb",
+                "version": "2.1.0",
+                "version_normalized": "2.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "ab2b879d23aa517dd59bd087bee7e18372e48dc9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/ab2b879d23aa517dd59bd087bee7e18372e48dc9",
+                    "reference": "ab2b879d23aa517dd59bd087bee7e18372e48dc9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2016-09-04T00:20:23+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "3.0.0": {
+                "name": "stuttter/ludicrousdb",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "4540231b04bbf30664d79abe8afe07c9afeb1f53"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/4540231b04bbf30664d79abe8afe07c9afeb1f53",
+                    "reference": "4540231b04bbf30664d79abe8afe07c9afeb1f53",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2016-10-24T19:35:25+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "4.0.0": {
+                "name": "stuttter/ludicrousdb",
+                "version": "4.0.0",
+                "version_normalized": "4.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "68be1c40fccbdbcc79c5665022c46ff980e958cc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/68be1c40fccbdbcc79c5665022c46ff980e958cc",
+                    "reference": "68be1c40fccbdbcc79c5665022c46ff980e958cc",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-06-20T16:13:53+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "4.1.0": {
+                "name": "stuttter/ludicrousdb",
+                "version": "4.1.0",
+                "version_normalized": "4.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/901e48c52658ca59ba7403cac676891f54b9d38f",
+                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-11-04T23:50:46+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-master": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/901e48c52658ca59ba7403cac676891f54b9d38f",
+                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-11-04T23:50:46+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-4-6-updates": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-4-6-updates",
+                "version_normalized": "dev-4-6-updates",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "99490c6886ff3f08b16b48156dc26fbd0824f416"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/99490c6886ff3f08b16b48156dc26fbd0824f416",
+                    "reference": "99490c6886ff3f08b16b48156dc26fbd0824f416",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-05-07T20:20:53+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-fix-pathes": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-fix-pathes",
+                "version_normalized": "dev-fix-pathes",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "9e2bcb8002fba936f93e186ddeca3db73d105860"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/9e2bcb8002fba936f93e186ddeca3db73d105860",
+                    "reference": "9e2bcb8002fba936f93e186ddeca3db73d105860",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-06-20T15:48:29+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-spacedmonkey-DB_COLLATE": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-spacedmonkey-DB_COLLATE",
+                "version_normalized": "dev-spacedmonkey-DB_COLLATE",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "05fc4a9c105751e5b5cc56b6f045426debcca4bb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/05fc4a9c105751e5b5cc56b6f045426debcca4bb",
+                    "reference": "05fc4a9c105751e5b5cc56b6f045426debcca4bb",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2016-08-25T09:52:45+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-spacedmonkey-fix-11": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-spacedmonkey-fix-11",
+                "version_normalized": "dev-spacedmonkey-fix-11",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "471a8686e57033ebbda86e5d110136a442d3b9d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/471a8686e57033ebbda86e5d110136a442d3b9d4",
+                    "reference": "471a8686e57033ebbda86e5d110136a442d3b9d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2016-08-25T09:34:20+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-spacedmonkey-fix-13": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-spacedmonkey-fix-13",
+                "version_normalized": "dev-spacedmonkey-fix-13",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "ec4fb4807c96fc059345c99a97623154c0851794"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/ec4fb4807c96fc059345c99a97623154c0851794",
+                    "reference": "ec4fb4807c96fc059345c99a97623154c0851794",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2016-08-25T09:10:22+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            },
+            "dev-version-4": {
+                "name": "stuttter/ludicrousdb",
+                "version": "dev-version-4",
+                "version_normalized": "dev-version-4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/stuttter/ludicrousdb.git",
+                    "reference": "6fe682432e8480a4532a87d2b10eacd5d92026fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/6fe682432e8480a4532a87d2b10eacd5d92026fc",
+                    "reference": "6fe682432e8480a4532a87d2b10eacd5d92026fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.2"
+                },
+                "time": "2017-06-20T16:08:12+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "John James Jacoby",
+                        "email": "johnjamesjacoby@me.com"
+                    },
+                    {
+                        "name": "Jonny Harris",
+                        "email": "jon@spacedmonkey.co.uk"
+                    }
+                ],
+                "description": "LudicrousDB is a database class that supports replication, failover, load balancing, & partitioning, based on Automattic's HyperDB drop-in.",
+                "homepage": "https://github.com/stuttter/ludicrousdb",
+                "support": {
+                    "issues": "https://github.com/stuttter/ludicrousdb/issues",
+                    "source": "https://github.com/stuttter/ludicrousdb"
+                }
+            }
+        }
+    }
+}
