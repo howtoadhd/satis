@@ -6,3 +6,7 @@ php:
 script:
   - composer config -g github-oauth.github.com ${GH_TOKEN}
   - composer deploy
+
+notifications:
+  webhooks:
+    - https://h2a-hubot.herokuapp.com/webhooks/travis
