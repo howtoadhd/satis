@@ -3,9 +3,30 @@ language: php
 php:
   - '7.1'
 
-script:
+before_install:
+  - nvm isntall stable
+  - npm update -g npm
+  - npm install -g gulp-cli
+
   - composer config -g github-oauth.github.com ${GH_TOKEN}
-  - composer deploy
+
+install:
+  - npm install
+  - gulp prepare
+
+script:
+  - gulp build
+
+deploy:
+  provider: pages
+  github-token: ${GH_TOKEN}
+  skip-cleanup: true
+  local-dir: public
+  keep-history: true
+  email: deploy@travis-ci.org
+  name: Travis CI
+  on:
+    branch: master
 
 notifications:
   webhooks:
