@@ -1,6 +1,7 @@
 {
   "name": "Composer for How To ADHD",
   "homepage": "https://howtoadhd.github.io/satis",
+  "twig-template": "template/index.html.twig",
   "repositories": [
     {
       "type": "vcs",
