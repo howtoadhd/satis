@@ -17,26 +17,31 @@ gulp.task("composer", () => {
 });
 
 gulp.task("satis", (cb) => {
-    const cmd = spawn(satis.binary, ['build', satis.config, build_dir, '--no-interaction']);
-    cmd.stdout.on('data', data => {
-        gutil.log(gutil.colors.green(data.toString()));
-    });
+  const cmd = spawn(satis.binary, ['build', satis.config, build_dir, '--no-interaction']);
+  cmd.stdout.on('data', data => {
+    gutil.log(gutil.colors.green(data.toString()));
+  });
 
-    cmd.stderr.on('data', data => {
-        gutil.log(gutil.colors.red(data.toString()));
-    });
+  cmd.stderr.on('data', data => {
+    gutil.log(gutil.colors.red(data.toString()));
+  });
 
-    cmd.on('exit', code => {
-        if (code > 0) {
-            cb('Satis exited with code ' + code.toString());
-        } else {
-            cb();
-        }
-    });
+  cmd.on('exit', code => {
+    if (code > 0) {
+      cb('Satis exited with code ' + code.toString());
+    } else {
+      cb();
+    }
+  });
+});
+
+gulp.task("copy", (cb) => {
+  gulp.src('./jekyll/**/*')
+    .pipe(gulp.dest('./public'));
 });
 
 gulp.task('prepare', ['composer']);
 
-gulp.task('build', ['satis']);
+gulp.task('build', ['satis', 'copy']);
 
 gulp.task('default', ['prepare', 'build']);
