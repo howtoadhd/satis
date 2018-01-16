@@ -1,47 +1,83 @@
 import gulp from 'gulp';
 import composer from 'gulp-composer';
 import gutil from 'gulp-util';
-import {spawn} from 'child_process';
+import {spawnSync} from 'child_process';
 
 const
-    build_dir = 'public',
-    satis = {
-        binary: './vendor/bin/satis',
-        config: './satis.json',
-    };
+  tmp_dir = 'tmp',
+  build_dir = 'public',
+  satis = {
+    binary: './vendor/bin/satis',
+    config: './satis.json',
+  };
 
 gulp.task("composer", () => {
-    composer({
-        async: false
-    });
+  composer({
+    async: false
+  });
 });
 
 gulp.task("satis", (cb) => {
-  const cmd = spawn(satis.binary, ['build', satis.config, build_dir, '--no-interaction']);
-  cmd.stdout.on('data', data => {
-    gutil.log(gutil.colors.green(data.toString()));
+  const cmd = spawnSync(satis.binary, ['build', satis.config, tmp_dir, '--no-interaction']);
+
+  cmd.stdout.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.green(line));
   });
 
-  cmd.stderr.on('data', data => {
-    gutil.log(gutil.colors.red(data.toString()));
+  cmd.stderr.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.red(line));
   });
 
-  cmd.on('exit', code => {
-    if (code > 0) {
-      cb('Satis exited with code ' + code.toString());
-    } else {
-      cb();
-    }
-  });
+  if (cmd.status > 0) {
+    cb('Satis exited with code ' + cmd.status.toString());
+  } else {
+    cb();
+  }
 });
 
 gulp.task("copy", (cb) => {
   gulp.src('./jekyll/**/*')
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest(tmp_dir));
 });
 
-gulp.task('prepare', ['composer']);
+gulp.task("bundler", (cb) => {
+  const cmd = spawnSync('bundle', ['install', '--jobs=3', '--retry=3' ], {
+    cwd: tmp_dir,
+  });
 
-gulp.task('build', ['satis', 'copy']);
+  cmd.stdout.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.green(line));
+  });
 
-gulp.task('default', ['prepare', 'build']);
+  cmd.stderr.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.red(line));
+  });
+
+  if (cmd.status > 0) {
+    cb('Bundler exited with code ' + cmd.status.toString());
+  } else {
+    cb();
+  }
+});
+
+gulp.task("jekyll", (cb) => {
+  const cmd = spawnSync('bundle', ['exec', 'jekyll', 'build', '--destination', '../' + build_dir ], {
+    cwd: tmp_dir,
+  });
+
+  cmd.stdout.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.green(line));
+  });
+
+  cmd.stderr.toString().split('\n').forEach( function (line) {
+    gutil.log(gutil.colors.red(line));
+  });
+
+  if (cmd.status > 0) {
+    cb('Jekyll exited with code ' + cmd.status.toString());
+  } else {
+    cb();
+  }
+});
+
+gulp.task('default', ['composer', 'satis', 'copy', 'bundler', 'jekyll']);
