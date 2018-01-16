@@ -4,17 +4,10 @@ php:
   - '7.1'
 
 before_install:
-  - nvm install stable
-  - npm update -g npm
-  - npm install -g gulp-cli
-
   - composer config -g github-oauth.github.com ${GH_TOKEN}
 
-install:
-  - npm install
-
 script:
-  - gulp
+  - make
 
 deploy:
   provider: pages
