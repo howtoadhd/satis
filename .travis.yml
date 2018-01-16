@@ -12,10 +12,9 @@ before_install:
 
 install:
   - npm install
-  - gulp prepare
 
 script:
-  - gulp build
+  - gulp
 
 deploy:
   provider: pages
