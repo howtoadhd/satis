@@ -45,6 +45,50 @@
                     "source": "http://core.trac.wordpress.org/browser"
                 }
             },
+            "4.9.2.x-dev": {
+                "name": "howtoadhd/wordpress",
+                "version": "4.9.2.x-dev",
+                "version_normalized": "4.9.2.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "da02f6a44a8759e3590f0d42cca3950ec1e1a915"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/da02f6a44a8759e3590f0d42cca3950ec1e1a915",
+                    "reference": "da02f6a44a8759e3590f0d42cca3950ec1e1a915",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2018-01-17T12:15:38+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            },
             "dev-master": {
                 "name": "howtoadhd/wordpress",
                 "version": "dev-master",
