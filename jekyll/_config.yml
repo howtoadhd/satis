@@ -1,8 +1,20 @@
-markdown: kramdown
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink: pretty
+
+# Server
+source:         "."
+destination: ./public
+baseurl: '/satis'
+url: https://howtoadhd.github.io
 theme: jekyll-theme-howtoadhd
+encoding: UTF-8
 
 section_title: Satis
 section_description: Composer all the things.
-
-url: https://howtoadhd.github.io
-baseurl: /satis
