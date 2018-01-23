@@ -142,12 +142,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform-installer.git",
-                    "reference": "b8b2a13407d9a299f2fe909cd7ca1834debc87bd"
+                    "reference": "fda85cfe65658ed046d1bf85f788167204afdff2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/b8b2a13407d9a299f2fe909cd7ca1834debc87bd",
-                    "reference": "b8b2a13407d9a299f2fe909cd7ca1834debc87bd",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/fda85cfe65658ed046d1bf85f788167204afdff2",
+                    "reference": "fda85cfe65658ed046d1bf85f788167204afdff2",
                     "shasum": ""
                 },
                 "require": {
@@ -158,9 +158,12 @@
                 },
                 "require-dev": {
                     "composer/composer": "^1.0",
-                    "phpunit/phpunit": ">=4.8.35"
+                    "overtrue/phplint": "^1.0",
+                    "phpunit/phpunit": ">=4.8.35",
+                    "squizlabs/php_codesniffer": "^3.2",
+                    "wimg/php-compatibility": "^8.1"
                 },
-                "time": "2018-01-23T00:53:21+00:00",
+                "time": "2018-01-23T21:08:53+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "HowToADHD\\Composer\\WPPlatformPlugin"
@@ -176,6 +179,22 @@
                     }
                 },
                 "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ],
                     "test:phpunit": [
                         "phpunit"
                     ],
@@ -192,7 +211,7 @@
                         "email": "iam@l5i.me"
                     }
                 ],
-                "description": "Composer plugin to install the HowToADHD WP Platform",
+                "description": "Composer plugin to install the HowToADHD WPPlatform",
                 "homepage": "https://github.com/howtoadhd/wp-platform-installer",
                 "support": {
                     "issues": "https://github.com/howtoadhd/wp-platform-installer/issues",
