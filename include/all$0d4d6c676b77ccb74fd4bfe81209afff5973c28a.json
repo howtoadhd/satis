@@ -142,12 +142,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform-installer.git",
-                    "reference": "aa2dc0e3db8243628283c7b4327f54a554bc0419"
+                    "reference": "1a3f19204bf551e35861f1933bb8e7f63606275d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/aa2dc0e3db8243628283c7b4327f54a554bc0419",
-                    "reference": "aa2dc0e3db8243628283c7b4327f54a554bc0419",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/1a3f19204bf551e35861f1933bb8e7f63606275d",
+                    "reference": "1a3f19204bf551e35861f1933bb8e7f63606275d",
                     "shasum": ""
                 },
                 "require": {
@@ -163,7 +163,7 @@
                     "squizlabs/php_codesniffer": "^3.2",
                     "wimg/php-compatibility": "^8.1"
                 },
-                "time": "2018-01-24T17:23:29+00:00",
+                "time": "2018-01-24T18:53:00+00:00",
                 "type": "composer-plugin",
                 "extra": {
                     "class": "HowToADHD\\Composer\\WPPlatformPlugin"
