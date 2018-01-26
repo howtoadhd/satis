@@ -949,22 +949,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/stuttter/ludicrousdb.git",
-                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f"
+                    "reference": "3264654adca6046fec15f565a909c3ce83a33418"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/901e48c52658ca59ba7403cac676891f54b9d38f",
-                    "reference": "901e48c52658ca59ba7403cac676891f54b9d38f",
+                    "url": "https://api.github.com/repos/stuttter/ludicrousdb/zipball/3264654adca6046fec15f565a909c3ce83a33418",
+                    "reference": "3264654adca6046fec15f565a909c3ce83a33418",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "php": ">=5.2"
                 },
-                "time": "2017-11-04T23:50:46+00:00",
+                "time": "2018-01-26T01:07:48+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
-                    "GPL-2.0+"
+                    "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
