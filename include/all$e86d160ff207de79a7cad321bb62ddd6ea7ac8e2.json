@@ -1,0 +1,475 @@
+{
+    "packages": {
+        "howtoadhd/wordpress": {
+            "4.9.1.x-dev": {
+                "name": "howtoadhd/wordpress",
+                "version": "4.9.1.x-dev",
+                "version_normalized": "4.9.1.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2017-12-28T22:47:35+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            },
+            "4.9.2.x-dev": {
+                "name": "howtoadhd/wordpress",
+                "version": "4.9.2.x-dev",
+                "version_normalized": "4.9.2.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "da02f6a44a8759e3590f0d42cca3950ec1e1a915"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/da02f6a44a8759e3590f0d42cca3950ec1e1a915",
+                    "reference": "da02f6a44a8759e3590f0d42cca3950ec1e1a915",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2018-01-17T12:15:38+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            },
+            "dev-master": {
+                "name": "howtoadhd/wordpress",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wordpress.git",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wordpress/zipball/b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "reference": "b6b9a4dd6518c258a7fda6dddc1fc4ab0c00e85a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.2"
+                },
+                "time": "2017-12-28T22:47:35+00:00",
+                "type": "wordpress-core",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "WordPress Community",
+                        "homepage": "http://wordpress.org/about/"
+                    }
+                ],
+                "description": "WordPress is web software you can use to create a beautiful website or blog.",
+                "homepage": "http://wordpress.org/",
+                "keywords": [
+                    "blog",
+                    "cms",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "http://core.trac.wordpress.org/",
+                    "forum": "http://wordpress.org/support/",
+                    "wiki": "http://codex.wordpress.org/",
+                    "irc": "irc://irc.freenode.net/wordpress",
+                    "source": "http://core.trac.wordpress.org/browser"
+                }
+            }
+        },
+        "howtoadhd/wp-platform": {
+            "dev-master": {
+                "name": "howtoadhd/wp-platform",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform.git",
+                    "reference": "54c5301ad9a580a42b23f7d73af730bb13f9dc49"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/54c5301ad9a580a42b23f7d73af730bb13f9dc49",
+                    "reference": "54c5301ad9a580a42b23f7d73af730bb13f9dc49",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.27.*",
+                    "howtoadhd/wp-platform-installer": "dev-master",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "howtoadhd/phpcs-ruleset": "dev-master",
+                    "overtrue/phplint": "^1.0.2"
+                },
+                "suggest": {
+                    "howtoadhd/wordpress": "dev-master"
+                },
+                "time": "2018-01-29T19:48:26+00:00",
+                "type": "wp-platform",
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\WPPlatform\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "WordPress platform tools for HowToADHD",
+                "homepage": "https://github.com/howtoadhd/wp-platform",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform"
+                }
+            },
+            "dev-dependabot/composer/aws/aws-sdk-php-3.52.star": {
+                "name": "howtoadhd/wp-platform",
+                "version": "dev-dependabot/composer/aws/aws-sdk-php-3.52.star",
+                "version_normalized": "dev-dependabot/composer/aws/aws-sdk-php-3.52.star",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform.git",
+                    "reference": "52fd3a88916cd493668575eeaa2eaa34bd0bc8aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/52fd3a88916cd493668575eeaa2eaa34bd0bc8aa",
+                    "reference": "52fd3a88916cd493668575eeaa2eaa34bd0bc8aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.52.*",
+                    "howtoadhd/wp-platform-installer": "dev-master",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "howtoadhd/phpcs-ruleset": "dev-master",
+                    "overtrue/phplint": "^0.2.4"
+                },
+                "suggest": {
+                    "howtoadhd/wordpress": "dev-master"
+                },
+                "time": "2018-01-26T12:53:37+00:00",
+                "type": "wp-platform",
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\WPPlatform\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "WordPress platform tools for HowToADHD",
+                "homepage": "https://github.com/howtoadhd/wp-platform",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform"
+                }
+            },
+            "dev-src/master": {
+                "name": "howtoadhd/wp-platform",
+                "version": "dev-src/master",
+                "version_normalized": "dev-src/master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform.git",
+                    "reference": "719ef4794d3da8fa9ba3d350a8a2c6866c735923"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/719ef4794d3da8fa9ba3d350a8a2c6866c735923",
+                    "reference": "719ef4794d3da8fa9ba3d350a8a2c6866c735923",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.27.*",
+                    "howtoadhd/wp-platform-installer": "dev-master",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "howtoadhd/phpcs-ruleset": "dev-master",
+                    "overtrue/phplint": "^1.0.2"
+                },
+                "suggest": {
+                    "howtoadhd/wordpress": "dev-master"
+                },
+                "time": "2018-01-29T19:42:36+00:00",
+                "type": "wp-platform",
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\WPPlatform\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "WordPress platform tools for HowToADHD",
+                "homepage": "https://github.com/howtoadhd/wp-platform",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform"
+                }
+            }
+        },
+        "howtoadhd/wp-platform-installer": {
+            "dev-master": {
+                "name": "howtoadhd/wp-platform-installer",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform-installer.git",
+                    "reference": "1a3f19204bf551e35861f1933bb8e7f63606275d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform-installer/zipball/1a3f19204bf551e35861f1933bb8e7f63606275d",
+                    "reference": "1a3f19204bf551e35861f1933bb8e7f63606275d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "conflict": {
+                    "johnpbloch/wordpress-core-installer": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "^1.0",
+                    "overtrue/phplint": "^1.0",
+                    "phpunit/phpunit": ">=4.8.35",
+                    "squizlabs/php_codesniffer": "^3.2",
+                    "wimg/php-compatibility": "^8.1"
+                },
+                "time": "2018-01-24T18:53:00+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "HowToADHD\\Composer\\WPPlatformPlugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\Composer\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\HowToADHD\\Composer\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ],
+                    "test:phpunit": [
+                        "phpunit"
+                    ],
+                    "test": [
+                        "@test:phpunit"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "Composer plugin to install the HowToADHD WPPlatform",
+                "homepage": "https://github.com/howtoadhd/wp-platform-installer",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform-installer/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform-installer"
+                }
+            }
+        },
+        "humanmade/cavalcade-runner": {
+            "dev-master": {
+                "name": "humanmade/cavalcade-runner",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
+                    "reference": "52fa840f3fa45d4302b0de82cf6197c235980c9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/52fa840f3fa45d4302b0de82cf6197c235980c9e",
+                    "reference": "52fa840f3fa45d4302b0de82cf6197c235980c9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-pdo_mysql": "*",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "humanmade/coding-standards": "dev-master"
+                },
+                "time": "2017-08-01T00:40:01+00:00",
+                "bin": [
+                    "bin/cavalcade"
+                ],
+                "type": "library",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made",
+                        "homepage": "https://hmn.md/"
+                    }
+                ],
+                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
+                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
+                "support": {
+                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
+                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
+                }
+            }
+        }
+    }
+}
