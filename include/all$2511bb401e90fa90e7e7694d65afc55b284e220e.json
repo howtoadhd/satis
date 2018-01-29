@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "54c5301ad9a580a42b23f7d73af730bb13f9dc49"
+                    "reference": "7cd7b2527bb1b2763537ceb3399b10b0f6fbdb9c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/54c5301ad9a580a42b23f7d73af730bb13f9dc49",
-                    "reference": "54c5301ad9a580a42b23f7d73af730bb13f9dc49",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/7cd7b2527bb1b2763537ceb3399b10b0f6fbdb9c",
+                    "reference": "7cd7b2527bb1b2763537ceb3399b10b0f6fbdb9c",
                     "shasum": ""
                 },
                 "require": {
@@ -26,9 +26,9 @@
                     "overtrue/phplint": "^1.0.2"
                 },
                 "suggest": {
-                    "howtoadhd/wordpress": "dev-master"
+                    "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-01-29T19:48:26+00:00",
+                "time": "2018-01-29T20:43:42+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
@@ -144,12 +144,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "719ef4794d3da8fa9ba3d350a8a2c6866c735923"
+                    "reference": "4951113e26b883f9e0cb8741f13013729de33e80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/719ef4794d3da8fa9ba3d350a8a2c6866c735923",
-                    "reference": "719ef4794d3da8fa9ba3d350a8a2c6866c735923",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/4951113e26b883f9e0cb8741f13013729de33e80",
+                    "reference": "4951113e26b883f9e0cb8741f13013729de33e80",
                     "shasum": ""
                 },
                 "require": {
@@ -162,9 +162,9 @@
                     "overtrue/phplint": "^1.0.2"
                 },
                 "suggest": {
-                    "howtoadhd/wordpress": "dev-master"
+                    "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-01-29T19:42:36+00:00",
+                "time": "2018-01-29T20:39:02+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
