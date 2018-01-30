@@ -6589,6 +6589,11 @@ a.text-dark:focus, a.text-dark:hover {
   color: rgba(0, 0, 0, 0.85);
   background-color: transparent; }
 
+.bd-lead {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300; }
+
 .package-title {
   margin-bottom: 0; }
 
