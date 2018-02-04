@@ -144,12 +144,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "9d6235178a1f7a665ab9b0984f6f867e515b6df8"
+                    "reference": "8aefe530a37211e2531000d03372e0b5160bacce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/9d6235178a1f7a665ab9b0984f6f867e515b6df8",
-                    "reference": "9d6235178a1f7a665ab9b0984f6f867e515b6df8",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/8aefe530a37211e2531000d03372e0b5160bacce",
+                    "reference": "8aefe530a37211e2531000d03372e0b5160bacce",
                     "shasum": ""
                 },
                 "require": {
@@ -164,7 +164,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-02-03T17:29:05+00:00",
+                "time": "2018-02-04T02:39:50+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
