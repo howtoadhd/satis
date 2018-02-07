@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "6763ce3eb6b306330383cdb8f685c62d90a00951"
+                    "reference": "2370d5d3100726cb7ecda5ba1e2ef4b5c9d3ffe3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/6763ce3eb6b306330383cdb8f685c62d90a00951",
-                    "reference": "6763ce3eb6b306330383cdb8f685c62d90a00951",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/2370d5d3100726cb7ecda5ba1e2ef4b5c9d3ffe3",
+                    "reference": "2370d5d3100726cb7ecda5ba1e2ef4b5c9d3ffe3",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-02-03T17:35:42+00:00",
+                "time": "2018-02-07T19:01:40+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
@@ -144,12 +144,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "8aefe530a37211e2531000d03372e0b5160bacce"
+                    "reference": "c154dd92ae51e2e3e257c2f9e131b6cb44c1f088"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/8aefe530a37211e2531000d03372e0b5160bacce",
-                    "reference": "8aefe530a37211e2531000d03372e0b5160bacce",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/c154dd92ae51e2e3e257c2f9e131b6cb44c1f088",
+                    "reference": "c154dd92ae51e2e3e257c2f9e131b6cb44c1f088",
                     "shasum": ""
                 },
                 "require": {
@@ -164,7 +164,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-02-04T02:39:50+00:00",
+                "time": "2018-02-07T18:57:00+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
