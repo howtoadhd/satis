@@ -503,12 +503,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "951401261338710c646dc953af613fe45a9072ff"
+                    "reference": "721728f05185ecc0484152f1180e38bf2078f0d7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/951401261338710c646dc953af613fe45a9072ff",
-                    "reference": "951401261338710c646dc953af613fe45a9072ff",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/721728f05185ecc0484152f1180e38bf2078f0d7",
+                    "reference": "721728f05185ecc0484152f1180e38bf2078f0d7",
                     "shasum": ""
                 },
                 "require": {
@@ -519,7 +519,7 @@
                 "require-dev": {
                     "humanmade/coding-standards": "dev-master"
                 },
-                "time": "2018-02-16T16:36:17+00:00",
+                "time": "2018-04-09T02:33:15+00:00",
                 "bin": [
                     "bin/cavalcade"
                 ],
