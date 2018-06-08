@@ -571,12 +571,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "721728f05185ecc0484152f1180e38bf2078f0d7"
+                    "reference": "7c69f27acb543605177a0a8945ef82beaadf7c23"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/721728f05185ecc0484152f1180e38bf2078f0d7",
-                    "reference": "721728f05185ecc0484152f1180e38bf2078f0d7",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/7c69f27acb543605177a0a8945ef82beaadf7c23",
+                    "reference": "7c69f27acb543605177a0a8945ef82beaadf7c23",
                     "shasum": ""
                 },
                 "require": {
@@ -587,7 +587,7 @@
                 "require-dev": {
                     "humanmade/coding-standards": "dev-master"
                 },
-                "time": "2018-04-09T02:33:15+00:00",
+                "time": "2018-06-08T16:36:12+00:00",
                 "bin": [
                     "bin/cavalcade"
                 ],
@@ -605,50 +605,6 @@
                 "homepage": "https://github.com/humanmade/Cavalcade-Runner",
                 "support": {
                     "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
-                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
-                }
-            },
-            "dev-handle-proc_open-failure": {
-                "name": "humanmade/cavalcade-runner",
-                "version": "dev-handle-proc_open-failure",
-                "version_normalized": "dev-handle-proc_open-failure",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "58d51602f979cf3d807373c65739b12591e8f422"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/58d51602f979cf3d807373c65739b12591e8f422",
-                    "reference": "58d51602f979cf3d807373c65739b12591e8f422",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-pcntl": "*",
-                    "ext-pdo_mysql": "*",
-                    "php": ">=5.6"
-                },
-                "require-dev": {
-                    "humanmade/coding-standards": "dev-master"
-                },
-                "time": "2018-05-29T19:27:27+00:00",
-                "bin": [
-                    "bin/cavalcade"
-                ],
-                "type": "library",
-                "license": [
-                    "GPL-2.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Human Made",
-                        "homepage": "https://hmn.md/"
-                    }
-                ],
-                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
-                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
-                "support": {
-                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/handle-proc_open-failure",
                     "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
                 }
             }
