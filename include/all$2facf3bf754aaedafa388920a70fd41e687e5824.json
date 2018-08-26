@@ -607,6 +607,50 @@
                     "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
                     "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
                 }
+            },
+            "dev-51-future-next-run": {
+                "name": "humanmade/cavalcade-runner",
+                "version": "dev-51-future-next-run",
+                "version_normalized": "dev-51-future-next-run",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
+                    "reference": "d1d318bf6638cf390f404622ad8d2d7a7163c729"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/d1d318bf6638cf390f404622ad8d2d7a7163c729",
+                    "reference": "d1d318bf6638cf390f404622ad8d2d7a7163c729",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-pdo_mysql": "*",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "humanmade/coding-standards": "dev-master"
+                },
+                "time": "2018-08-26T06:49:13+00:00",
+                "bin": [
+                    "bin/cavalcade"
+                ],
+                "type": "library",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made",
+                        "homepage": "https://hmn.md/"
+                    }
+                ],
+                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
+                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
+                "support": {
+                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/51-future-next-run",
+                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
+                }
             }
         }
     }
