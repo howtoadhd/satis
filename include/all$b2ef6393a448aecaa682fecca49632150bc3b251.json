@@ -273,19 +273,19 @@
                     "source": "https://github.com/howtoadhd/wp-platform"
                 }
             },
-            "dev-dependabot/submodules/src/master/modules/s3-uploads-6bc1691": {
+            "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e": {
                 "name": "howtoadhd/wp-platform",
-                "version": "dev-dependabot/submodules/src/master/modules/s3-uploads-6bc1691",
-                "version_normalized": "dev-dependabot/submodules/src/master/modules/s3-uploads-6bc1691",
+                "version": "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e",
+                "version_normalized": "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "1f62e7232de6f7c46c058ffe4e2b57d01dc9cfaf"
+                    "reference": "f92cbd1e9792b42d73559e2d2efd56fa33549d1e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/1f62e7232de6f7c46c058ffe4e2b57d01dc9cfaf",
-                    "reference": "1f62e7232de6f7c46c058ffe4e2b57d01dc9cfaf",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/f92cbd1e9792b42d73559e2d2efd56fa33549d1e",
+                    "reference": "f92cbd1e9792b42d73559e2d2efd56fa33549d1e",
                     "shasum": ""
                 },
                 "require": {
@@ -300,7 +300,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-09-13T05:47:19+00:00",
+                "time": "2018-10-12T06:02:19+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
