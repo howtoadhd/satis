@@ -205,6 +205,74 @@
                     "source": "https://github.com/howtoadhd/wp-platform"
                 }
             },
+            "dev-dependabot/submodules/src/master/modules/cavalcade-7e6cfa8": {
+                "name": "howtoadhd/wp-platform",
+                "version": "dev-dependabot/submodules/src/master/modules/cavalcade-7e6cfa8",
+                "version_normalized": "dev-dependabot/submodules/src/master/modules/cavalcade-7e6cfa8",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/howtoadhd/wp-platform.git",
+                    "reference": "b1044f117769306501c6bfbbceffcf034b8319e5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/b1044f117769306501c6bfbbceffcf034b8319e5",
+                    "reference": "b1044f117769306501c6bfbbceffcf034b8319e5",
+                    "shasum": ""
+                },
+                "require": {
+                    "aws/aws-sdk-php": "3.27.*",
+                    "howtoadhd/wp-platform-installer": "dev-master",
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "howtoadhd/phpcs-ruleset": "dev-master",
+                    "overtrue/phplint": "^1.0.2"
+                },
+                "suggest": {
+                    "johnpbloch/wordpress-core": "^4.6"
+                },
+                "time": "2018-10-15T05:35:25+00:00",
+                "type": "wp-platform",
+                "autoload": {
+                    "psr-4": {
+                        "HowToADHD\\WPPlatform\\": "src/"
+                    }
+                },
+                "scripts": {
+                    "analyse:phpcs": [
+                        "phpcs ."
+                    ],
+                    "analyse:phplint": [
+                        "phplint"
+                    ],
+                    "analyse": [
+                        "@analyse:phplint",
+                        "@analyse:phpcs"
+                    ],
+                    "fix:phpcbf": [
+                        "phpcbf ."
+                    ],
+                    "fix": [
+                        "@fix:phpcbf"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Lorelei Aurora",
+                        "email": "iam@l5i.me"
+                    }
+                ],
+                "description": "WordPress platform tools for HowToADHD",
+                "homepage": "https://github.com/howtoadhd/wp-platform",
+                "support": {
+                    "issues": "https://github.com/howtoadhd/wp-platform/issues",
+                    "source": "https://github.com/howtoadhd/wp-platform"
+                }
+            },
             "dev-dependabot/submodules/src/master/modules/object-cache-d380bd4": {
                 "name": "howtoadhd/wp-platform",
                 "version": "dev-dependabot/submodules/src/master/modules/object-cache-d380bd4",
@@ -273,19 +341,19 @@
                     "source": "https://github.com/howtoadhd/wp-platform"
                 }
             },
-            "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e": {
+            "dev-dependabot/submodules/src/master/modules/s3-uploads-237e73f": {
                 "name": "howtoadhd/wp-platform",
-                "version": "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e",
-                "version_normalized": "dev-dependabot/submodules/src/master/modules/s3-uploads-510098e",
+                "version": "dev-dependabot/submodules/src/master/modules/s3-uploads-237e73f",
+                "version_normalized": "dev-dependabot/submodules/src/master/modules/s3-uploads-237e73f",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "f92cbd1e9792b42d73559e2d2efd56fa33549d1e"
+                    "reference": "65f328246d36d48f0ec557c3cf1bda65920192fb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/f92cbd1e9792b42d73559e2d2efd56fa33549d1e",
-                    "reference": "f92cbd1e9792b42d73559e2d2efd56fa33549d1e",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/65f328246d36d48f0ec557c3cf1bda65920192fb",
+                    "reference": "65f328246d36d48f0ec557c3cf1bda65920192fb",
                     "shasum": ""
                 },
                 "require": {
@@ -300,7 +368,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2018-10-12T06:02:19+00:00",
+                "time": "2018-10-15T05:35:29+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
