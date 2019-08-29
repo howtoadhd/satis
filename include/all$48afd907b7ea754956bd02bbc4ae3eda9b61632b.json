@@ -707,12 +707,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "445a67194e295ab5d2fad0eaa7fb938c54f6d496"
+                    "reference": "3065001de4180d2082543867c9c6e6cfad026814"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/445a67194e295ab5d2fad0eaa7fb938c54f6d496",
-                    "reference": "445a67194e295ab5d2fad0eaa7fb938c54f6d496",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/3065001de4180d2082543867c9c6e6cfad026814",
+                    "reference": "3065001de4180d2082543867c9c6e6cfad026814",
                     "shasum": ""
                 },
                 "require": {
@@ -723,7 +723,7 @@
                 "require-dev": {
                     "humanmade/coding-standards": "dev-master"
                 },
-                "time": "2019-01-09T21:53:17+00:00",
+                "time": "2019-08-28T16:48:32+00:00",
                 "bin": [
                     "bin/cavalcade"
                 ],
@@ -741,6 +741,50 @@
                 "homepage": "https://github.com/humanmade/Cavalcade-Runner",
                 "support": {
                     "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
+                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
+                }
+            },
+            "dev-fix-travis": {
+                "name": "humanmade/cavalcade-runner",
+                "version": "dev-fix-travis",
+                "version_normalized": "dev-fix-travis",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
+                    "reference": "fc514ea2755782274465bf2e33f31893205381ec"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/fc514ea2755782274465bf2e33f31893205381ec",
+                    "reference": "fc514ea2755782274465bf2e33f31893205381ec",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-pcntl": "*",
+                    "ext-pdo_mysql": "*",
+                    "php": ">=5.6"
+                },
+                "require-dev": {
+                    "humanmade/coding-standards": "0.7.0"
+                },
+                "time": "2019-08-28T15:37:20+00:00",
+                "bin": [
+                    "bin/cavalcade"
+                ],
+                "type": "library",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Human Made",
+                        "homepage": "https://hmn.md/"
+                    }
+                ],
+                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
+                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
+                "support": {
+                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/fix-travis",
                     "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
                 }
             }
