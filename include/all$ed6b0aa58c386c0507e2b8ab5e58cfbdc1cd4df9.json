@@ -477,19 +477,19 @@
                     "source": "https://github.com/howtoadhd/wp-platform"
                 }
             },
-            "dev-dependabot/submodules/src/master/modules/ses-wp-mail-44f7666": {
+            "dev-dependabot/submodules/src/master/modules/ses-wp-mail-d2ff7a7": {
                 "name": "howtoadhd/wp-platform",
-                "version": "dev-dependabot/submodules/src/master/modules/ses-wp-mail-44f7666",
-                "version_normalized": "dev-dependabot/submodules/src/master/modules/ses-wp-mail-44f7666",
+                "version": "dev-dependabot/submodules/src/master/modules/ses-wp-mail-d2ff7a7",
+                "version_normalized": "dev-dependabot/submodules/src/master/modules/ses-wp-mail-d2ff7a7",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/howtoadhd/wp-platform.git",
-                    "reference": "6f1668a6c2924fe1addf36f223c7e858750dacee"
+                    "reference": "4d3ec853119c85fa927d1e95e0594128ef8b276c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/6f1668a6c2924fe1addf36f223c7e858750dacee",
-                    "reference": "6f1668a6c2924fe1addf36f223c7e858750dacee",
+                    "url": "https://api.github.com/repos/howtoadhd/wp-platform/zipball/4d3ec853119c85fa927d1e95e0594128ef8b276c",
+                    "reference": "4d3ec853119c85fa927d1e95e0594128ef8b276c",
                     "shasum": ""
                 },
                 "require": {
@@ -504,7 +504,7 @@
                 "suggest": {
                     "johnpbloch/wordpress-core": "^4.6"
                 },
-                "time": "2019-04-22T05:15:58+00:00",
+                "time": "2019-09-13T05:12:10+00:00",
                 "type": "wp-platform",
                 "autoload": {
                     "psr-4": {
