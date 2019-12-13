@@ -707,12 +707,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "3065001de4180d2082543867c9c6e6cfad026814"
+                    "reference": "3ab6824b7afcff70210c6d74d7c85dcc28ecd00a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/3065001de4180d2082543867c9c6e6cfad026814",
-                    "reference": "3065001de4180d2082543867c9c6e6cfad026814",
+                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/3ab6824b7afcff70210c6d74d7c85dcc28ecd00a",
+                    "reference": "3ab6824b7afcff70210c6d74d7c85dcc28ecd00a",
                     "shasum": ""
                 },
                 "require": {
@@ -723,7 +723,7 @@
                 "require-dev": {
                     "humanmade/coding-standards": "dev-master"
                 },
-                "time": "2019-08-28T16:48:32+00:00",
+                "time": "2019-12-12T17:56:42+00:00",
                 "bin": [
                     "bin/cavalcade"
                 ],
@@ -741,50 +741,6 @@
                 "homepage": "https://github.com/humanmade/Cavalcade-Runner",
                 "support": {
                     "source": "https://github.com/humanmade/Cavalcade-Runner/tree/master",
-                    "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
-                }
-            },
-            "dev-ease-loop-intensity": {
-                "name": "humanmade/cavalcade-runner",
-                "version": "dev-ease-loop-intensity",
-                "version_normalized": "dev-ease-loop-intensity",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/humanmade/Cavalcade-Runner.git",
-                    "reference": "b79015450603583130ab1602af7afc191d5c98e1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/humanmade/Cavalcade-Runner/zipball/b79015450603583130ab1602af7afc191d5c98e1",
-                    "reference": "b79015450603583130ab1602af7afc191d5c98e1",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-pcntl": "*",
-                    "ext-pdo_mysql": "*",
-                    "php": ">=5.6"
-                },
-                "require-dev": {
-                    "humanmade/coding-standards": "dev-master"
-                },
-                "time": "2019-12-12T00:07:35+00:00",
-                "bin": [
-                    "bin/cavalcade"
-                ],
-                "type": "library",
-                "license": [
-                    "GPL-2.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Human Made",
-                        "homepage": "https://hmn.md/"
-                    }
-                ],
-                "description": "Daemon for Cavalcade, a scalable WordPress jobs system.",
-                "homepage": "https://github.com/humanmade/Cavalcade-Runner",
-                "support": {
-                    "source": "https://github.com/humanmade/Cavalcade-Runner/tree/ease-loop-intensity",
                     "issues": "https://github.com/humanmade/Cavalcade-Runner/issues"
                 }
             },
